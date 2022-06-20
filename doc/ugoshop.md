@@ -11,3 +11,6 @@ nvm list
 nvm install 10.24.1
 ```
 顺利运行
+
+
+http://nvm.uihtm.com/
