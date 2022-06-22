@@ -12,5 +12,11 @@ nvm install 10.24.1
 ```
 顺利运行
 
+####补充
+下载地址：`http://nvm.uihtm.com/`
+当前电脑有node 14安装时会提示，点击“是”。直接安装就行。
 
-http://nvm.uihtm.com/
+设置node_mirro与npm_mirror为国内镜像地址
+
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
