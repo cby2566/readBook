@@ -35,3 +35,6 @@ console.log(p1)
 ```
 D:\word_word\user_\Ptest\run.bat "%1"
 ```
+
+
+D:\common_tools\Microsoft VS Code\Code.exe

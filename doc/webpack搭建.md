@@ -66,3 +66,10 @@ template --> ast --> render函数 --> VDom --> 真实DOM
 
 (2) runtime-only的步骤
 render函数 --> VDom --> 真实DOM
+
+
+
+
+
+####生成report.html
+`"report": "vue-cli-service build --report --mode production"`
