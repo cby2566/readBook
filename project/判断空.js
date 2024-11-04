@@ -28,3 +28,16 @@ export function camelCase(str) {
   return str.replace(/-[a-z]/g, str1 => str1.substr(-1).toUpperCase());
 }
 
+/**
+   * @description 将图片转为base4
+   */
+export function toBase64() {
+  const self = this;
+  const reader = new FileReader();
+  reader.onload = e => {
+    // 返回base64
+    self.imgURL = e.target.result;
+    self.insertImg();
+  };
+  reader.readAsDataURL(self.file);
+}
