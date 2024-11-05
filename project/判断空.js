@@ -28,6 +28,11 @@ export function camelCase(str) {
   return str.replace(/-[a-z]/g, str1 => str1.substr(-1).toUpperCase());
 }
 
+// 判断数字 正则 含正负
+export function isNumberStr(str) {
+  return /^[+-]?(0|([1-9]\d*))(\.\d+)?$/g.test(str);
+}
+
 /**
    * @description 将图片转为base4
    */
